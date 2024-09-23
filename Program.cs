@@ -148,7 +148,7 @@ internal class Program
     enum Severity { Warning, Error };
 
 
-    private static string Input(string userText)
+    private static string? Input(string userText)
     {
         Console.Write(userText);
         return Console.ReadLine();

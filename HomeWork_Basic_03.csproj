@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="HomeWork_Basic_03_rev1\**" />
+    <EmbeddedResource Remove="HomeWork_Basic_03_rev1\**" />
+    <None Remove="HomeWork_Basic_03_rev1\**" />
+  </ItemGroup>
+
 </Project>
